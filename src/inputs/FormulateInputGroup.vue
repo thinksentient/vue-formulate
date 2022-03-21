@@ -27,6 +27,7 @@
         :prevent-deregister="true"
         class="formulate-input-group-item"
         @blur="context.blurHandler"
+        v-on="$listeners"
       />
     </template>
     <template
